@@ -95,7 +95,12 @@ class _QiblaCompassPageState extends State<QiblaCompassPage> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios),
           onPressed: () {
-            Navigator.pop(context);
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const BerandaPage(title: 'Beranda'),
+              ),
+            );
           },
         ),
       ),

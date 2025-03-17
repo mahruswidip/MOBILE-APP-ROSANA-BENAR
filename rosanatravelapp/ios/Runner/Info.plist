@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Rosanatravelapp</string>
+	<string>Rosana Travel App</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -24,6 +26,16 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Aplikasi ini memerlukan akses lokasi agar fitur absensi dapat berjalan dengan baik.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Aplikasi ini membutuhkan akses lokasi untuk fitur Geofencing dan Absensi.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Izinkan akses lokasi agar aplikasi dapat mendeteksi keberadaan Anda saat menggunakan fitur tertentu.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Aplikasi ini membutuhkan akses mikrofon untuk fitur komunikasi dan streaming suara secara real-time.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,9 +53,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>voip</string>
+	</array>
+
 </dict>
 </plist>
