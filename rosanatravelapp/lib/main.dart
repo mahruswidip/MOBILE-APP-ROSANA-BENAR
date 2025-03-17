@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Rosana Travel App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromRGBO(245, 255, 250, 1),
+          seedColor: Color.fromRGBO(255, 255, 255, 1),
         ),
         useMaterial3: true,
       ),
