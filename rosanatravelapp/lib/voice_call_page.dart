@@ -24,7 +24,7 @@ class _State extends State<JoinChannelAudio> {
   bool isLoading = true;
   String errorMessage = '';
   bool isJoined = false,
-      openMicrophone = true,
+      openMicrophone = false,
       muteMicrophone = false,
       muteAllRemoteAudio = false,
       enableSpeakerphone = true,
@@ -147,7 +147,11 @@ class _State extends State<JoinChannelAudio> {
         clientRoleType: ClientRoleType.clientRoleBroadcaster,
       ),
     );
+
+    // Immediately mute local mic after joining
+    await _engine.enableLocalAudio(false);
   }
+
 
   _leaveChannel() async {
     await _engine.leaveChannel();
