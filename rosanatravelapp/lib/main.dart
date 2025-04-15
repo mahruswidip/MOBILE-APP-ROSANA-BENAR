@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-
+import 'dart:async';
+import 'dart:io';
 import 'beranda.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 

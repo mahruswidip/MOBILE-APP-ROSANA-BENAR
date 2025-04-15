@@ -33,7 +33,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Izinkan akses lokasi agar aplikasi dapat mendeteksi keberadaan Anda saat menggunakan fitur tertentu.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Aplikasi ini membutuhkan akses mikrofon untuk fitur komunikasi dan streaming suara secara real-time.</string>
+	<string>Rosana Travel membutuhkan akses mikrofon untuk mendengarkan panduan ibadah.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
