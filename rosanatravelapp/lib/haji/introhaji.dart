@@ -5,7 +5,6 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart'
     as smooth_page_indicator;
 import 'package:flutter/material.dart';
 
-import '../umroh/umrohold.dart';
 
 class IntroUmroh extends StatefulWidget {
   const IntroUmroh({Key? key}) : super(key: key);
