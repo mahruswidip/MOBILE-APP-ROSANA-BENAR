@@ -706,31 +706,14 @@ class _TabbarState extends State<Tabbar> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    IconButton(
-                      icon: const Icon(
-                        Icons.abc,
-                        color: Color.fromARGB(0, 76, 175, 79),
-                      ),
-                      tooltip: 'Pengaturan',
-                      onPressed: () {},
-                    ),
                     Text(
                       "Niat Ihram",
                       style: const TextStyle(
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold,
                       ),
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.settings, color: Colors.green),
-                      tooltip: 'Pengaturan',
-                      onPressed: () {
-                        setState(() {
-                          _showSwitchSettings = !_showSwitchSettings;
-                        });
-                      },
                     ),
                   ],
                 ),

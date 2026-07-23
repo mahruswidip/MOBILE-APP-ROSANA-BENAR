@@ -1,4 +1,4 @@
-package com.rosanatravel.app
+package com.rosanatravelapp.v2
 
 import io.flutter.embedding.android.FlutterActivity
 

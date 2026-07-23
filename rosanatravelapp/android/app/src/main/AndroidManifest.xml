@@ -7,7 +7,7 @@ xmlns:tools="http://schemas.android.com/tools">
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE"
         tools:node="remove"/>
     <application
-        android:label="Rosana Travel App"
+        android:label="Rosana Travel"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

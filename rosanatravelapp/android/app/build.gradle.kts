@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace ="com.rosanatravel.app"
+    namespace ="com.rosanatravelapp.v2"
     compileSdk = 36
     ndkVersion  = "27.0.12077973"
 
@@ -30,7 +30,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.rosanatravel.app"
+        applicationId = "com.rosanatravelapp.v2"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
         versionCode = flutter.versionCode
